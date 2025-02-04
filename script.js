@@ -1,5 +1,5 @@
 const fetchResults = async (city) => {
-    let url = `http://api.weatherapi.com/v1/current.json?key=29969bb26e444dce97d61222250402&q=${city}&aqi=yes`;
+    let url = `https://api.weatherapi.com/v1/current.json?key=29969bb26e444dce97d61222250402&q=${city}&aqi=yes`;
     
     try {
         const res = await fetch(url);
